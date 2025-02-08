@@ -25,6 +25,6 @@ function adicionarAmigo() {
 function sortearAmigo() {
   let nomeEscolhido = parseInt(Math.random() * amigos.length + 1);
   let li = document.createElement("li");
-  li.textContent = amigos[nomeEscolhido];
   resultado.appendChild(li);
+  li.textContent = amigos[nomeEscolhido];
 }
