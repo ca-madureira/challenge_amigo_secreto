@@ -18,6 +18,8 @@ function adicionarAmigo() {
   });
 
   let lista = document.getElementById("listaAmigos").appendChild(li);
+
+  document.getElementById("amigo").value = "";
 }
 
 function sortearAmigo() {
